@@ -1,3 +1,4 @@
+/* id = "#" */
 #sec1 {
 	background-color: pink;
 	font-size: 90px;
@@ -17,11 +18,18 @@
 p {
 	background-color: aqua;
 	font-weight: bold;
+	text-align: right;
+	width: 50%;
+	margin-left: 60px;
 }
-
+/* class = "." */
 .gollum {
 	width: 600px;
+	height: 600px;
+	text-align: center;
+	margin-left: 500px;
 }
+
 
 
 
