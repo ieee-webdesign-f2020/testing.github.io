@@ -31,6 +31,30 @@ p {
 	margin: auto; /* centre is so great, holy grail of centre */
 }
 
+.flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 
+/* everything that is in flex */
+.flex > * {
+	font-size: 30px;
+	width: 500px;
+	text-align: center;
+}
+
+.d1 {
+	background-color: red;
+}
+
+.d2 {
+	background-color: yellow;
+}
+
+.d3 {
+	background-color: lightgoldenrodyellow;
+	color: blue;
+}
 
 
